@@ -1,0 +1,37 @@
+/* Optional */
+.body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item {
+  list-style-type: none;
+  width: 360px;
+  height: auto;
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+.modal {
+  background-color: #2e2f42;
+}
